@@ -44,7 +44,7 @@ class AzureSTTService(STTService):
         *,
         api_key: str,
         region: str,
-        language: Language = Language.EN_US,
+        language: Language = Language.HI_IN,
         sample_rate: Optional[int] = None,
         **kwargs,
     ):

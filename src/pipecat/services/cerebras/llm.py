@@ -66,7 +66,7 @@ class CerebrasLLMService(OpenAILLMService):
             "seed": self._settings["seed"],
             "temperature": self._settings["temperature"],
             "top_p": self._settings["top_p"],
-            "max_completion_tokens": self._settings["max_completion_tokens"],
+            "max_completion_tokens": 250,
         }
 
         params.update(self._settings["extra"])
